@@ -24,7 +24,7 @@ export const en = {
 		heading: 'About',
 		paragraphs: [
 			'NS Labs is a research and development group based in Ho Chi Minh City, building useful digital products. Each product comes from a real need — from idea, design to development and operations.',
-			'We prioritize making products that are simple, easy to use, and solve the right problem. If you find any product useful, feel free to give it a try.',
+			'We prioritize making products that are simple, easy to use, and solve the right problem.',
 		],
 	},
 	contact: {

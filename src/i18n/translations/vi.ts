@@ -24,7 +24,7 @@ export const vi = {
 		heading: 'Giới Thiệu',
 		paragraphs: [
 			'NS Labs là một nhóm nghiên cứu và phát triển sản phẩm số tại TP. Hồ Chí Minh. Mỗi sản phẩm đều xuất phát từ nhu cầu thực tế — từ ý tưởng, thiết kế đến phát triển và vận hành.',
-			'Chúng tôi ưu tiên làm ra những sản phẩm đơn giản, dễ dùng và giải quyết đúng vấn đề. Nếu bạn thấy sản phẩm nào hữu ích thì cứ dùng thử.',
+			'Chúng tôi ưu tiên làm ra những sản phẩm đơn giản, dễ dùng và giải quyết đúng vấn đề.',
 		],
 	},
 	contact: {
