@@ -43,7 +43,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 	const value = useMemo<LanguageContextValue>(() => {
 		const t = getTranslations(locale);
 		const projects = getLocalizedProjects(locale);
+		return { locale, setLocale, t, projects };
+	}, [locale]);
 
+	useEffect(() => {
+		const { t } = value;
 		document.title = t.meta.title;
 		const metaDesc = document.querySelector('meta[name="description"]');
 		if (metaDesc) metaDesc.setAttribute('content', t.meta.description);
@@ -51,9 +55,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 		if (ogTitle) ogTitle.setAttribute('content', t.meta.title);
 		const ogDesc = document.querySelector('meta[property="og:description"]');
 		if (ogDesc) ogDesc.setAttribute('content', t.meta.ogDescription);
-
-		return { locale, setLocale, t, projects };
-	}, [locale]);
+	}, [value]);
 
 	return (
 		<LanguageContext.Provider value={value}>
