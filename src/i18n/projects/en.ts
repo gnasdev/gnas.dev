@@ -411,4 +411,122 @@ export const projectsEn: ProjectTranslation[] = [
 			},
 		],
 	},
+	{
+		title: 'NS Tracing Extension',
+		description:
+			'Chrome extension that records comprehensive debugging data during web testing sessions \u2014 capturing screen video, console logs, network requests, and WebSocket activity with source map support for minified code.',
+		tagline: 'Record everything, debug faster.',
+		highlights: ['Screen recording', 'Console & network capture', 'Source map support'],
+		featureGroups: [
+			{
+				heading: 'Data Capture',
+				features: [
+					{
+						title: 'Screen Recording',
+						description:
+							'Record tab video in VP9/VP8 with Opus audio using the MediaRecorder API \u2014 one click to start.',
+					},
+					{
+						title: 'Console Capture',
+						description:
+							'Capture all console output (errors, warnings, info) with full object inspection and CDP format parsing.',
+					},
+					{
+						title: 'Network Monitoring',
+						description:
+							'Record every HTTP request and response including headers, bodies, timing data, and status codes.',
+					},
+					{
+						title: 'WebSocket Tracking',
+						description:
+							'Capture real-time WebSocket frames (sent and received) with payload data for debugging live connections.',
+					},
+				],
+			},
+			{
+				heading: 'Export & Sharing',
+				features: [
+					{
+						title: 'Source Map Resolution',
+						description:
+							'Automatically resolve minified stack traces to original source code with built-in VLQ decoding.',
+					},
+					{
+						title: 'ZIP Export',
+						description:
+							'Download complete recording sessions as ZIP files containing video, logs, and network data.',
+					},
+					{
+						title: 'Server Upload',
+						description:
+							'Upload recordings to the companion NS Tracing Server for centralized storage and team sharing.',
+					},
+					{
+						title: 'Shareable Links',
+						description:
+							'Generate shareable view URLs after uploading so teammates can replay and inspect sessions instantly.',
+					},
+				],
+			},
+		],
+	},
+	{
+		title: 'NS Tracing Server',
+		description:
+			'Session replay viewer for debugging browser interactions. Upload video recordings with synchronized console logs, network requests, and WebSocket traffic, then play them back with interactive timeline markers.',
+		tagline: 'Replay and inspect debug sessions.',
+		highlights: ['Synchronized replay', 'Timeline markers', 'Debug inspector'],
+		featureGroups: [
+			{
+				heading: 'Session Replay',
+				features: [
+					{
+						title: 'Video Playback',
+						description:
+							'Play back recorded browser sessions with a synchronized video player and tabbed log panels.',
+					},
+					{
+						title: 'Interactive Timeline',
+						description:
+							'Navigate recordings with a timeline featuring automatic markers for key events and activities.',
+					},
+					{
+						title: 'Error Markers',
+						description:
+							'Red markers on the timeline highlight console errors so you can jump directly to problem moments.',
+					},
+					{
+						title: 'Network Markers',
+						description:
+							'Blue markers indicate network requests on the timeline for quick correlation with visual behavior.',
+					},
+				],
+			},
+			{
+				heading: 'Debug Inspector',
+				features: [
+					{
+						title: 'Console Viewer',
+						description:
+							'Browse console logs with timestamps, severity levels, stack traces, and source-mapped locations.',
+					},
+					{
+						title: 'Request Inspector',
+						description:
+							'Inspect HTTP requests and responses with headers, status codes, response sizes, and timing information.',
+					},
+					{
+						title: 'WebSocket Viewer',
+						description:
+							'View WebSocket frames with payload data, organized by connection for real-time protocol debugging.',
+					},
+					{
+						title: 'Recording Upload',
+						description:
+							'Accept video files up to 500MB with telemetry data, stored persistently with unique shareable IDs.',
+					},
+				],
+			},
+		],
+	},
 ];

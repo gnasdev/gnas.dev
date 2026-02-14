@@ -47,6 +47,16 @@ import {
 	Shield,
 	Lock,
 	Download,
+	Video,
+	Terminal,
+	Globe,
+	Wifi,
+	Code,
+	Upload,
+	Link,
+	Play,
+	AlertTriangle,
+	Eye,
 } from 'lucide-react';
 
 export interface ProjectFeature {
@@ -225,6 +235,50 @@ export const projectStructures: ProjectStructure[] = [
 					{ icon: Lock },
 					{ icon: Download },
 					{ icon: Package },
+				],
+			},
+		],
+	},
+	{
+		key: 'ns-tracing-extension',
+		url: 'https://github.com/ngosangns/ns-tracing-extension',
+		featureGroups: [
+			{
+				features: [
+					{ icon: Video },
+					{ icon: Terminal },
+					{ icon: Globe },
+					{ icon: Wifi },
+				],
+			},
+			{
+				features: [
+					{ icon: Code },
+					{ icon: Download },
+					{ icon: Upload },
+					{ icon: Link },
+				],
+			},
+		],
+	},
+	{
+		key: 'ns-tracing-server',
+		url: 'https://github.com/ngosangns/ns-tracing-server',
+		featureGroups: [
+			{
+				features: [
+					{ icon: Play },
+					{ icon: Clock },
+					{ icon: AlertTriangle },
+					{ icon: Globe },
+				],
+			},
+			{
+				features: [
+					{ icon: Terminal },
+					{ icon: Eye },
+					{ icon: Wifi },
+					{ icon: Upload },
 				],
 			},
 		],

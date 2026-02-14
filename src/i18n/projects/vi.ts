@@ -411,4 +411,122 @@ export const projectsVi: ProjectTranslation[] = [
 			},
 		],
 	},
+	{
+		title: 'NS Tracing Extension',
+		description:
+			'Extension Chrome ghi lại dữ liệu debug toàn diện trong phiên kiểm thử web \u2014 quay video màn hình, console log, network request và hoạt động WebSocket với hỗ trợ source map cho mã đã minify.',
+		tagline: 'Ghi lại mọi thứ, debug nhanh hơn.',
+		highlights: ['Quay màn hình', 'Console & network', 'Source map'],
+		featureGroups: [
+			{
+				heading: 'Thu Thập Dữ Liệu',
+				features: [
+					{
+						title: 'Quay Màn Hình',
+						description:
+							'Quay video tab trình duyệt ở định dạng VP9/VP8 với âm thanh Opus bằng MediaRecorder API \u2014 chỉ một click để bắt đầu.',
+					},
+					{
+						title: 'Ghi Console',
+						description:
+							'Ghi lại toàn bộ output console (lỗi, cảnh báo, thông tin) với kiểm tra object đầy đủ và phân tích định dạng CDP.',
+					},
+					{
+						title: 'Giám Sát Network',
+						description:
+							'Ghi lại mọi HTTP request và response bao gồm header, body, dữ liệu timing và mã trạng thái.',
+					},
+					{
+						title: 'Theo Dõi WebSocket',
+						description:
+							'Ghi lại frame WebSocket thời gian thực (gửi và nhận) với dữ liệu payload để debug kết nối live.',
+					},
+				],
+			},
+			{
+				heading: 'Xuất & Chia Sẻ',
+				features: [
+					{
+						title: 'Giải Mã Source Map',
+						description:
+							'Tự động giải mã stack trace từ mã minify về mã nguồn gốc với bộ giải mã VLQ tích hợp.',
+					},
+					{
+						title: 'Xuất ZIP',
+						description:
+							'Tải xuống phiên ghi hoàn chỉnh dưới dạng tệp ZIP chứa video, log và dữ liệu network.',
+					},
+					{
+						title: 'Tải Lên Server',
+						description:
+							'Tải bản ghi lên NS Tracing Server đồng hành để lưu trữ tập trung và chia sẻ với nhóm.',
+					},
+					{
+						title: 'Liên Kết Chia Sẻ',
+						description:
+							'Tạo URL xem có thể chia sẻ sau khi tải lên để đồng nghiệp có thể phát lại và kiểm tra phiên ngay lập tức.',
+					},
+				],
+			},
+		],
+	},
+	{
+		title: 'NS Tracing Server',
+		description:
+			'Trình xem phát lại phiên để debug tương tác trình duyệt. Tải lên video ghi hình với console log, network request và lưu lượng WebSocket đồng bộ, sau đó phát lại với các marker timeline tương tác.',
+		tagline: 'Phát lại và kiểm tra phiên debug.',
+		highlights: ['Phát lại đồng bộ', 'Marker timeline', 'Công cụ debug'],
+		featureGroups: [
+			{
+				heading: 'Phát Lại Phiên',
+				features: [
+					{
+						title: 'Phát Video',
+						description:
+							'Phát lại phiên trình duyệt đã ghi với trình phát video đồng bộ và bảng log theo tab.',
+					},
+					{
+						title: 'Timeline Tương Tác',
+						description:
+							'Điều hướng bản ghi với timeline có marker tự động cho các sự kiện và hoạt động quan trọng.',
+					},
+					{
+						title: 'Marker Lỗi',
+						description:
+							'Marker đỏ trên timeline đánh dấu lỗi console để bạn có thể nhảy thẳng đến thời điểm có vấn đề.',
+					},
+					{
+						title: 'Marker Network',
+						description:
+							'Marker xanh chỉ báo network request trên timeline để liên kết nhanh với hành vi trực quan.',
+					},
+				],
+			},
+			{
+				heading: 'Công Cụ Debug',
+				features: [
+					{
+						title: 'Trình Xem Console',
+						description:
+							'Duyệt console log với timestamp, mức độ nghiêm trọng, stack trace và vị trí source-mapped.',
+					},
+					{
+						title: 'Kiểm Tra Request',
+						description:
+							'Kiểm tra HTTP request và response với header, mã trạng thái, kích thước response và thông tin timing.',
+					},
+					{
+						title: 'Trình Xem WebSocket',
+						description:
+							'Xem frame WebSocket với dữ liệu payload, sắp xếp theo kết nối để debug giao thức thời gian thực.',
+					},
+					{
+						title: 'Tải Lên Bản Ghi',
+						description:
+							'Nhận tệp video lên đến 500MB với dữ liệu telemetry, lưu trữ vĩnh viễn với ID chia sẻ duy nhất.',
+					},
+				],
+			},
+		],
+	},
 ];
