@@ -4,57 +4,57 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'NS Shop',
 		description:
-			'N\u1EC1n t\u1EA3ng th\u1EDDi trang tr\u1EF1c tuy\u1EBFn mang \u0111\u1EBFn tr\u1EA3i nghi\u1EC7m mua s\u1EAFm m\u01B0\u1EE3t m\u00E0 t\u1EEB \u0111\u1EA7u \u0111\u1EBFn cu\u1ED1i. T\u00ECm ki\u1EBFm, kh\u00E1m ph\u00E1, \u0111\u1EB7t h\u00E0ng v\u00E0 theo d\u00F5i \u2014 t\u1EA5t c\u1EA3 trong m\u1ED9t h\u00E0nh tr\u00ECnh li\u1EC1n m\u1EA1ch.',
-		tagline: 'Mua s\u1EAFm th\u1EDDi trang, kh\u00F4ng gi\u1EDBi h\u1EA1n.',
-		highlights: ['Kh\u00E1m ph\u00E1 s\u1EA3n ph\u1EA9m', 'Thanh to\u00E1n linh ho\u1EA1t'],
+			'Trang thời trang online — tìm sản phẩm, đặt hàng, theo dõi đơn.',
+		tagline: 'Mua sắm thời trang online.',
+		highlights: ['Tìm kiếm sản phẩm', 'Đặt hàng & theo dõi'],
 		featureGroups: [
 			{
-				heading: 'Tr\u1EA3i Nghi\u1EC7m Mua S\u1EAFm',
+				heading: 'Mua sắm',
 				features: [
 					{
-						title: 'Kh\u00E1m Ph\u00E1 Kh\u00F4ng Gi\u1EDBi H\u1EA1n',
+						title: 'Tìm kiếm & lọc',
 						description:
-							'Duy\u1EC7t theo danh m\u1EE5c, t\u00ECm theo t\u1EEB kh\u00F3a, l\u1ECDc theo k\u00EDch c\u1EE1, m\u00E0u s\u1EAFc hay th\u01B0\u01A1ng hi\u1EC7u \u2014 t\u00ECm \u0111\u00FAng th\u1EE9 b\u1EA1n c\u1EA7n ch\u1EC9 trong v\u00E0i gi\u00E2y.',
+							'Lọc theo danh mục, kích cỡ, màu sắc, thương hiệu — hoặc tìm bằng từ khóa.',
 					},
 					{
-						title: '\u0110a D\u1EA1ng Bi\u1EBFn Th\u1EC3',
+						title: 'Biến thể sản phẩm',
 						description:
-							'M\u1ED7i s\u1EA3n ph\u1EA9m c\u00F3 \u0111\u1EA7y \u0111\u1EE7 t\u00F9y ch\u1ECDn k\u00EDch c\u1EE1 v\u00E0 m\u00E0u s\u1EAFc, v\u1EDBi gi\u00E1 v\u00E0 t\u1ED3n kho \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt theo th\u1EDDi gian th\u1EF1c.',
+							'Đầy đủ size và màu cho mỗi sản phẩm, giá và tồn kho cập nhật realtime.',
 					},
 					{
-						title: '\u0110\u00E1nh Gi\u00E1 T\u1EEB C\u1ED9ng \u0110\u1ED3ng',
+						title: 'Đánh giá',
 						description:
-							'Tham kh\u1EA3o \u0111\u00E1nh gi\u00E1 v\u00E0 x\u1EBFp h\u1EA1ng t\u1EEB ng\u01B0\u1EDDi mua th\u1EF1c, ho\u1EB7c chia s\u1EBB tr\u1EA3i nghi\u1EC7m c\u1EE7a b\u1EA1n \u0111\u1EC3 gi\u00FAp ng\u01B0\u1EDDi kh\u00E1c.',
+							'Xem review từ người mua hoặc tự viết đánh giá.',
 					},
 					{
-						title: 'Danh S\u00E1ch Y\u00EAu Th\u00EDch',
+						title: 'Yêu thích',
 						description:
-							'L\u01B0u l\u1EA1i nh\u1EEFng m\u00F3n \u0111\u1ED3 \u01B0ng \u00FD, quay l\u1EA1i b\u1EA5t c\u1EE9 l\u00FAc n\u00E0o \u2014 kh\u00F4ng bao gi\u1EDD b\u1ECF l\u1EE1 s\u1EA3n ph\u1EA9m y\u00EAu th\u00EDch.',
+							'Lưu sản phẩm quan tâm để xem lại sau.',
 					},
 				],
 			},
 			{
-				heading: 'Gi\u1ECF H\u00E0ng & Thanh To\u00E1n',
+				heading: 'Giỏ hàng & thanh toán',
 				features: [
 					{
-						title: 'Mua Ngay, \u0110\u0103ng K\u00FD Sau',
+						title: 'Không cần tài khoản',
 						description:
-							'Kh\u00F4ng c\u1EA7n t\u1EA1o t\u00E0i kho\u1EA3n \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u \u2014 gi\u1ECF h\u00E0ng t\u1EF1 \u0111\u1ED9ng l\u01B0u l\u1EA1i, s\u1EB5n s\u00E0ng khi b\u1EA1n s\u1EB5n s\u00E0ng.',
+							'Thêm vào giỏ hàng ngay, đăng ký sau cũng được.',
 					},
 					{
-						title: 'Thanh To\u00E1n Theo C\u00E1ch B\u1EA1n',
+						title: 'Thanh toán',
 						description:
-							'Tr\u1EA3 ti\u1EC1n m\u1EB7t khi nh\u1EADn h\u00E0ng ho\u1EB7c chuy\u1EC3n kho\u1EA3n \u2014 b\u1EA1n ch\u1ECDn c\u00E1ch n\u00E0o thu\u1EADn ti\u1EC7n nh\u1EA5t.',
+							'COD hoặc chuyển khoản.',
 					},
 					{
-						title: 'Giao H\u00E0ng Th\u00F4ng Minh',
+						title: 'Địa chỉ giao hàng',
 						description:
-							'L\u01B0u nhi\u1EC1u \u0111\u1ECBa ch\u1EC9, \u0111\u1EB7t m\u1EB7c \u0111\u1ECBnh \u2014 thanh to\u00E1n nhanh h\u01A1n m\u1ED7i l\u1EA7n quay l\u1EA1i.',
+							'Lưu nhiều địa chỉ, đặt mặc định cho lần sau.',
 					},
 					{
-						title: 'Theo D\u00F5i M\u1ECDi B\u01B0\u1EDBc',
+						title: 'Theo dõi đơn',
 						description:
-							'Bi\u1EBFt ch\u00EDnh x\u00E1c \u0111\u01A1n h\u00E0ng \u0111ang \u1EDF \u0111\u00E2u, nh\u1EADn th\u00F4ng b\u00E1o email t\u1EF1 \u0111\u1ED9ng \u1EDF m\u1ED7i c\u1ED9t m\u1ED1c.',
+							'Cập nhật trạng thái đơn hàng qua email tự động.',
 					},
 				],
 			},
@@ -63,107 +63,107 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'NS Money',
 		description:
-			'Bi\u1EBFn vi\u1EC7c qu\u1EA3n l\u00FD t\u00E0i ch\u00EDnh t\u1EEB g\u00E1nh n\u1EB7ng th\u00E0nh th\u00F3i quen \u0111\u01A1n gi\u1EA3n. AI hi\u1EC3u ng\u00F4n ng\u1EEF t\u1EF1 nhi\u00EAn, bot Telegram ghi ch\u00E9p m\u1ECDi l\u00FAc, v\u00E0 b\u1EA3ng ph\u00E2n t\u00EDch gi\u00FAp b\u1EA1n nh\u00ECn r\u00F5 b\u1EE9c tranh t\u00E0i ch\u00EDnh to\u00E0n c\u1EA3nh.',
-		tagline: 'L\u00E0m ch\u1EE7 t\u00E0i ch\u00EDnh, m\u1ED7i ng\u00E0y.',
-		highlights: ['Qu\u1EA3n l\u00FD th\u00F4ng minh', 'AI t\u1EF1 \u0111\u1ED9ng', 'Telegram bot'],
+			'Quản lý thu chi cá nhân — nhập bằng ngôn ngữ tự nhiên qua AI, ghi chép nhanh qua Telegram bot, xem thống kê trực quan.',
+		tagline: 'Quản lý tài chính cá nhân.',
+		highlights: ['AI nhập liệu', 'Telegram bot', 'Thống kê'],
 		featureGroups: [
 			{
-				heading: 'Qu\u1EA3n L\u00FD To\u00E0n Di\u1EC7n',
+				heading: 'Quản lý thu chi',
 				features: [
 					{
-						title: 'Nhi\u1EC1u V\u00ED, M\u1ED9t N\u01A1i',
+						title: 'Nhiều ví',
 						description:
-							'T\u00E1ch bi\u1EC7t ti\u1EBFt ki\u1EC7m, chi ti\u00EAu h\u00E0ng ng\u00E0y, kinh doanh hay b\u1EA5t k\u1EF3 m\u1EE5c \u0111\u00EDch n\u00E0o \u2014 m\u1ED7i v\u00ED m\u1ED9t c\u00E2u chuy\u1EC7n ri\u00EAng.',
+							'Tách riêng tiết kiệm, chi tiêu hàng ngày, kinh doanh — mỗi ví một mục đích.',
 					},
 					{
-						title: 'Thu Chi R\u00F5 R\u00E0ng',
+						title: 'Phân loại giao dịch',
 						description:
-							'Ph\u00E2n lo\u1EA1i m\u1ECDi giao d\u1ECBch v\u1EDBi danh m\u1EE5c t\u00F9y ch\u1EC9nh v\u00E0 ghi ch\u00FA \u2014 kh\u00F4ng m\u1ED9t \u0111\u1ED3ng n\u00E0o \u0111i qua m\u00E0 kh\u00F4ng \u0111\u01B0\u1EE3c ghi nh\u1EADn.',
+							'Danh mục tùy chỉnh và ghi chú cho mỗi giao dịch.',
 					},
 					{
-						title: 'L\u1ECBch S\u1EED \u0110\u1EA7y \u0110\u1EE7',
+						title: 'Lịch sử',
 						description:
-							'Tra c\u1EE9u b\u1EA5t k\u1EF3 giao d\u1ECBch n\u00E0o theo ng\u00E0y, s\u1ED1 ti\u1EC1n hay v\u00ED \u2014 m\u1ECDi th\u1EE9 lu\u00F4n s\u1EB5n s\u00E0ng khi b\u1EA1n c\u1EA7n.',
+							'Tra cứu giao dịch theo ngày, số tiền hoặc ví.',
 					},
 					{
-						title: 'Kh\u00F4ng Gi\u1EDBi H\u1EA1n Ti\u1EC1n T\u1EC7',
+						title: 'Đa tiền tệ',
 						description:
-							'VND hay USD \u2014 theo d\u00F5i m\u1ECDi giao d\u1ECBch, d\u00F9 trong n\u01B0\u1EDBc hay qu\u1ED1c t\u1EBF.',
+							'Hỗ trợ VND, USD và các đơn vị tiền tệ khác.',
 					},
 				],
 			},
 			{
-				heading: 'Tr\u1EE3 L\u00FD AI',
+				heading: 'AI hỗ trợ',
 				features: [
 					{
-						title: 'Qu\u00E9t H\u00F3a \u0110\u01A1n T\u1EE9c Th\u00EC',
+						title: 'Quét hóa đơn',
 						description:
-							'Ch\u1EE5p \u1EA3nh h\u00F3a \u0111\u01A1n, AI t\u1EF1 \u0111\u1ED9ng \u0111\u1ECDc s\u1ED1 ti\u1EC1n v\u00E0 chi ti\u1EBFt \u2014 kh\u00F4ng c\u1EA7n nh\u1EADp li\u1EC7u th\u1EE7 c\u00F4ng.',
+							'Chụp ảnh hóa đơn, AI tự đọc số tiền và chi tiết.',
 					},
 					{
-						title: 'N\u00F3i Chuy\u1EC7n V\u1EDBi AI',
+						title: 'Nhập bằng ngôn ngữ tự nhiên',
 						description:
-							'G\u00F5 "c\u00E0 ph\u00EA 50k" hay "l\u01B0\u01A1ng 15 tri\u1EC7u" \u2014 AI hi\u1EC3u ngay v\u00E0 t\u1EA1o giao d\u1ECBch gi\u00FAp b\u1EA1n.',
+							'Gõ "cà phê 50k" hay "lương 15 triệu" — AI hiểu và tạo giao dịch.',
 					},
 					{
-						title: 'X\u1EED L\u00FD Th\u00F4ng Minh',
+						title: 'Xử lý linh hoạt',
 						description:
-							'Vi\u1EBFt t\u1EAFt, nhi\u1EC1u giao d\u1ECBch trong m\u1ED9t c\u00E2u, \u0111\u1ECBnh d\u1EA1ng ti\u1EC1n t\u1EC7 kh\u00E1c nhau \u2014 AI x\u1EED l\u00FD h\u1EBFt.',
+							'Viết tắt, nhiều giao dịch trong một câu, định dạng tiền tệ khác nhau — đều xử lý được.',
 					},
 					{
-						title: 'T\u1EF1 \u0110\u1ED9ng Ph\u00E2n Lo\u1EA1i',
+						title: 'Tự động phân loại',
 						description:
-							'M\u00F4 t\u1EA3 chi ti\u00EAu b\u1EB1ng ng\u00F4n ng\u1EEF h\u00E0ng ng\u00E0y, AI ph\u00E2n lo\u1EA1i v\u00E0 ghi s\u1ED5 t\u1EF1 \u0111\u1ED9ng.',
+							'Mô tả chi tiêu bằng ngôn ngữ thường ngày, AI tự phân loại.',
 					},
 				],
 			},
 			{
-				heading: 'Bot Telegram',
+				heading: 'Telegram bot',
 				features: [
 					{
-						title: 'Ghi Ch\u00E9p M\u1ECDi L\u00FAc',
+						title: 'Ghi chép nhanh',
 						description:
-							'\u0110ang \u0111i \u0111\u01B0\u1EDDng? G\u1EEDi tin nh\u1EAFn nhanh cho bot l\u00E0 xong \u2014 chi ti\u00EAu \u0111\u01B0\u1EE3c ghi l\u1EA1i ngay l\u1EADp t\u1EE9c.',
+							'Gửi tin nhắn cho bot để ghi chi tiêu — tiện khi đang di chuyển.',
 					},
 					{
-						title: 'H\u1ECFi L\u00E0 C\u00F3',
+						title: 'Tra cứu',
 						description:
-							'Ki\u1EC3m tra s\u1ED1 d\u01B0, xem giao d\u1ECBch g\u1EA7n \u0111\u00E2y, th\u1ED1ng k\u00EA chi ti\u00EAu \u2014 ch\u1EC9 c\u1EA7n nh\u1EAFn tin.',
+							'Kiểm tra số dư, giao dịch gần đây, thống kê chi tiêu qua tin nhắn.',
 					},
 					{
-						title: 'B\u00E1o C\u00E1o Linh Ho\u1EA1t',
+						title: 'Báo cáo',
 						description:
-							'T\u1ED5ng k\u1EBFt theo ng\u00E0y, tu\u1EA7n, th\u00E1ng ho\u1EB7c n\u0103m \u2014 tr\u1EF1c ti\u1EBFp trong Telegram, kh\u00F4ng c\u1EA7n m\u1EDF app.',
+							'Tổng kết theo ngày, tuần, tháng hoặc năm ngay trong Telegram.',
 					},
 					{
-						title: 'B\u1EA3o M\u1EADt Tuy\u1EC7t \u0110\u1ED1i',
+						title: 'Bảo mật',
 						description:
-							'Li\u00EAn k\u1EBFt t\u00E0i kho\u1EA3n b\u1EB1ng m\u00E3 b\u00ED m\u1EADt d\u00F9ng m\u1ED9t l\u1EA7n \u2014 d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n, ch\u1EC9 m\u00ECnh b\u1EA1n th\u1EA5y.',
+							'Liên kết tài khoản bằng mã dùng một lần.',
 					},
 				],
 			},
 			{
-				heading: 'Ph\u00E2n T\u00EDch T\u00E0i Ch\u00EDnh',
+				heading: 'Thống kê',
 				features: [
 					{
-						title: 'Bi\u1EC3u \u0110\u1ED3 Thu Chi',
+						title: 'Biểu đồ thu chi',
 						description:
-							'Nh\u00ECn r\u00F5 thu nh\u1EADp v\u00E0 chi ti\u00EAu qua bi\u1EC3u \u0111\u1ED3 tr\u1EF1c quan \u2014 so s\u00E1nh theo b\u1EA5t k\u1EF3 kho\u1EA3ng th\u1EDDi gian n\u00E0o.',
+							'Thu nhập và chi tiêu hiển thị qua biểu đồ, so sánh theo khoảng thời gian.',
 					},
 					{
-						title: 'Ti\u1EC1n \u0110i \u0110\u00E2u?',
+						title: 'Chi tiêu theo danh mục',
 						description:
-							'Ph\u00E2n t\u00EDch chi ti\u1EBFt theo t\u1EEBng danh m\u1EE5c \u2014 bi\u1EBFt ch\u00EDnh x\u00E1c \u0111\u1ED3ng ti\u1EC1n c\u1EE7a b\u1EA1n \u0111ang ch\u1EA3y v\u1EC1 \u0111\u00E2u.',
+							'Xem chi tiết tiền đi đâu theo từng danh mục.',
 					},
 					{
-						title: 'B\u1EA3n \u0110\u1ED3 Th\u00F3i Quen',
+						title: 'Bản đồ nhiệt',
 						description:
-							'Kh\u00E1m ph\u00E1 quy lu\u1EADt chi ti\u00EAu qua b\u1EA3n \u0111\u1ED3 nhi\u1EC7t \u2014 hi\u1EC3u m\u00ECnh h\u01A1n m\u1ED7i ng\u00E0y.',
+							'Nhận ra quy luật chi tiêu qua heatmap.',
 					},
 					{
-						title: 'M\u1EE5c Ti\u00EAu Ti\u1EBFt Ki\u1EC7m',
+						title: 'Số dư tích lũy',
 						description:
-							'Theo d\u00F5i s\u1ED1 d\u01B0 t\u00EDch l\u0169y v\u00E0 t\u1EF7 l\u1EC7 ti\u1EBFt ki\u1EC7m \u2014 t\u1EEBng b\u01B0\u1EDBc \u0111\u1EBFn g\u1EA7n m\u1EE5c ti\u00EAu t\u00E0i ch\u00EDnh.',
+							'Theo dõi số dư và tỷ lệ tiết kiệm theo thời gian.',
 					},
 				],
 			},
@@ -172,132 +172,132 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'Vocab',
 		description:
-			'Bi\u1EBFn vi\u1EC7c h\u1ECDc t\u1EEB v\u1EF1ng t\u1EEB ngh\u0129a v\u1EE5 th\u00E0nh ni\u1EC1m vui. Thu\u1EADt to\u00E1n th\u00EDch \u1EE9ng gi\u00FAp b\u1EA1n nh\u1EDB l\u00E2u h\u01A1n, AI t\u1EA1o b\u00E0i t\u1EADp ph\u00F9 h\u1EE3p, v\u00E0 h\u1EC7 th\u1ED1ng thi \u0111ua khi\u1EBFn b\u1EA1n kh\u00F4ng mu\u1ED1n d\u1EEBng l\u1EA1i.',
-		tagline: 'H\u1ECDc t\u1EEB v\u1EF1ng, kh\u00F4ng nh\u00E0m ch\u00E1n.',
-		highlights: ['Ghi nh\u1EDB l\u00E2u d\u00E0i', 'AI c\u00E1 nh\u00E2n h\u00F3a', 'Thi \u0111ua & x\u1EBFp h\u1EA1ng'],
+			'App học từ vựng tiếng Anh — spaced repetition, bài tập do AI tạo, bảng xếp hạng.',
+		tagline: 'Học từ vựng tiếng Anh.',
+		highlights: ['Spaced repetition', 'AI tạo bài tập', 'Bảng xếp hạng'],
 		featureGroups: [
 			{
-				heading: 'H\u1ECDc Theo C\u00E1ch C\u1EE7a B\u1EA1n',
+				heading: 'Ôn tập',
 				features: [
 					{
-						title: 'Nh\u1EDB L\u00E2u, Nh\u1EDB S\u00E2u',
+						title: 'Spaced repetition',
 						description:
-							'Thu\u1EADt to\u00E1n l\u1EB7p l\u1EA1i ng\u1EAFt qu\u00E3ng t\u00EDnh to\u00E1n th\u1EDDi \u0111i\u1EC3m \u00F4n t\u1EADp t\u1ED1i \u01B0u \u2014 gi\u00FAp t\u1EEB v\u1EF1ng \u0111i v\u00E0o tr\u00ED nh\u1EDB d\u00E0i h\u1EA1n.',
+							'Thuật toán tính thời điểm ôn tập tối ưu để ghi nhớ lâu dài.',
 					},
 					{
-						title: 'Th\u1EED Th\u00E1ch V\u1EEBa \u0110\u1EE7',
+						title: 'Độ khó tự điều chỉnh',
 						description:
-							'\u0110\u1ED9 kh\u00F3 t\u1EF1 \u0111i\u1EC1u ch\u1EC9nh theo tr\u00ECnh \u0111\u1ED9 th\u1EF1c t\u1EBF \u2014 lu\u00F4n \u0111\u1EE7 th\u00E1ch th\u1EE9c \u0111\u1EC3 ti\u1EBFn b\u1ED9, kh\u00F4ng bao gi\u1EDD qu\u00E1 t\u1EA3i.',
+							'Tự động điều chỉnh theo trình độ thực tế của bạn.',
 					},
 					{
-						title: 'B\u1EAFt \u0110\u1EA7u Ngay',
+						title: 'Phiên ôn tập sẵn sàng',
 						description:
-							'Phi\u00EAn \u00F4n t\u1EADp \u0111\u01B0\u1EE3c t\u00EDnh to\u00E1n s\u1EB5n \u1EDF n\u1EC1n \u2014 m\u1EDF app l\u00E0 h\u1ECDc \u0111\u01B0\u1EE3c, kh\u00F4ng ch\u1EDD \u0111\u1EE3i.',
+							'Tính toán sẵn ở nền — mở app là học được ngay.',
 					},
 					{
-						title: 'Chi\u1EBFn L\u01B0\u1EE3c 60/40',
+						title: 'Tỷ lệ 60/40',
 						description:
-							'C\u00E2n b\u1EB1ng gi\u1EEFa t\u1EEB m\u1EDBi v\u00E0 \u00F4n t\u1EADp theo t\u1EF7 l\u1EC7 v\u00E0ng \u2014 t\u1ED1i \u0111a h\u00F3a kh\u1EA3 n\u0103ng ghi nh\u1EDB.',
+							'Cân bằng giữa từ mới và ôn tập theo tỷ lệ tối ưu cho ghi nhớ.',
 					},
 				],
 			},
 			{
-				heading: 'Luy\u1EC7n T\u1EADp \u0110a D\u1EA1ng',
+				heading: 'Luyện tập',
 				features: [
 					{
-						title: 'T\u1EEB V\u1EF1ng Chuy\u00EAn S\u00E2u',
+						title: 'Từ vựng',
 						description:
-							'H\u1ECDc t\u1EEB m\u1EDBi v\u1EDBi \u0111\u1ECBnh ngh\u0129a chi ti\u1EBFt, c\u00E1ch ph\u00E1t \u00E2m v\u00E0 v\u00ED d\u1EE5 t\u1EEB ng\u1EEF c\u1EA3nh th\u1EF1c t\u1EBF.',
+							'Học từ mới với định nghĩa, cách phát âm và ví dụ ngữ cảnh.',
 					},
 					{
-						title: 'Ng\u1EEF Ph\u00E1p Th\u1EF1c Chi\u1EBFn',
+						title: 'Ngữ pháp',
 						description:
-							'R\u00E8n ng\u1EEF ph\u00E1p qua b\u00E0i t\u1EADp ph\u00E1t hi\u1EC7n l\u1ED7i \u2014 t\u1EEB th\u00EC, h\u00F2a h\u1EE3p ch\u1EE7 v\u1ECB \u0111\u1EBFn c\u1EA5u tr\u00FAc ph\u1EE9c t\u1EA1p.',
+							'Bài tập phát hiện lỗi ngữ pháp — thì, hòa hợp chủ vị, cấu trúc câu.',
 					},
 					{
-						title: '\u0110\u1ECDc Hi\u1EC3u Th\u00F4ng Minh',
+						title: 'Đọc hiểu',
 						description:
-							'N\u00E2ng cao kh\u1EA3 n\u0103ng \u0111\u1ECDc hi\u1EC3u qua c\u00E1c \u0111o\u1EA1n v\u0103n v\u1EDBi c\u00E2u h\u1ECFi \u0111\u00FAng/sai v\u00E0 tr\u1EA3 l\u1EDDi ng\u1EAFn.',
+							'Đoạn văn kèm câu hỏi đúng/sai và trả lời ngắn.',
 					},
 					{
-						title: 'Tr\u1EAFc Nghi\u1EC7m AI',
+						title: 'Trắc nghiệm AI',
 						description:
-							'Ki\u1EC3m tra ki\u1EBFn th\u1EE9c v\u1EDBi c\u00E2u h\u1ECFi do AI t\u1EA1o \u2014 nhi\u1EC1u c\u1EA5p \u0111\u1ED9, kh\u00F4ng bao gi\u1EDD l\u1EB7p l\u1EA1i.',
+							'Câu hỏi do AI tạo, nhiều cấp độ, không lặp lại.',
 					},
 				],
 			},
 			{
-				heading: 'AI \u0110\u1ED3ng H\u00E0nh',
+				heading: 'AI hỗ trợ',
 				features: [
 					{
-						title: 'T\u1EEB \u0110i\u1EC3n Th\u00F4ng Minh',
+						title: 'Từ điển',
 						description:
-							'\u0110\u1ECBnh ngh\u0129a chi ti\u1EBFt k\u00E8m v\u00ED d\u1EE5, t\u1EEB \u0111\u1ED3ng ngh\u0129a, tr\u00E1i ngh\u0129a \u2014 t\u1EA5t c\u1EA3 \u0111\u01B0\u1EE3c AI t\u1ED5ng h\u1EE3p chuy\u00EAn s\u00E2u.',
+							'Định nghĩa chi tiết kèm ví dụ, từ đồng nghĩa, trái nghĩa — do AI tổng hợp.',
 					},
 					{
-						title: 'Song Ng\u1EEF Anh-Vi\u1EC7t',
+						title: 'Song ngữ Anh-Việt',
 						description:
-							'M\u1ECDi \u0111\u1ECBnh ngh\u0129a \u0111\u1EC1u c\u00F3 c\u1EA3 ti\u1EBFng Anh v\u00E0 ti\u1EBFng Vi\u1EC7t \u2014 hi\u1EC3u s\u00E2u, nh\u1EDB nhanh.',
+							'Mỗi định nghĩa có cả tiếng Anh và tiếng Việt.',
 					},
 					{
-						title: 'B\u00E0i T\u1EADp C\u00E1 Nh\u00E2n H\u00F3a',
+						title: 'Bài tập cá nhân hóa',
 						description:
-							'AI t\u1EA1o b\u00E0i t\u1EADp m\u1EDBi d\u1EF1a tr\u00EAn t\u1EEB kh\u00F3a v\u00E0 m\u1EE9c \u0111\u1ED9 kh\u00F3 b\u1EA1n ch\u1ECDn \u2014 lu\u00F4n m\u1EDBi m\u1EBB, kh\u00F4ng nh\u00E0m ch\u00E1n.',
+							'AI tạo bài tập dựa trên từ khóa và mức độ khó bạn chọn.',
 					},
 					{
-						title: 'Ch\u1EA5m \u0110i\u1EC3m T\u1EF1 \u0110\u1ED9ng',
+						title: 'Chấm điểm tự động',
 						description:
-							'Vi\u1EBFt c\u00E2u tr\u1EA3 l\u1EDDi t\u1EF1 do, AI ch\u1EA5m \u0111i\u1EC3m v\u00E0 ph\u1EA3n h\u1ED3i chi ti\u1EBFt \u2014 nh\u01B0 c\u00F3 gia s\u01B0 ri\u00EAng.',
+							'Viết câu trả lời tự do, AI chấm và phản hồi chi tiết.',
 					},
 				],
 			},
 			{
-				heading: 'Thi \u0110ua & Ti\u1EBFn B\u1ED9',
+				heading: 'Thi đua',
 				features: [
 					{
-						title: 'Nh\u1EADt K\u00FD H\u1ECDc T\u1EADp',
+						title: 'Heatmap học tập',
 						description:
-							'B\u1EA3n \u0111\u1ED3 nhi\u1EC7t ki\u1EC3u GitHub hi\u1EC3n th\u1ECB t\u1EEBng ng\u00E0y b\u1EA1n h\u1ECDc \u2014 chu\u1ED7i ng\u00E0y c\u00E0ng d\u00E0i, \u0111\u1ED9ng l\u1EF1c c\u00E0ng l\u1EDBn.',
+							'Bản đồ nhiệt kiểu GitHub hiển thị từng ngày bạn học.',
 					},
 					{
-						title: 'X\u1EBFp H\u1EA1ng K\u1EF9 N\u0103ng',
+						title: 'Xếp hạng kỹ năng',
 						description:
-							'Nh\u1EADn \u0111i\u1EC3m MMR cho t\u1EEB v\u1EF1ng, ng\u1EEF ph\u00E1p v\u00E0 \u0111\u1ECDc hi\u1EC3u \u2014 leo h\u1EA1ng t\u1EEB \u0110\u1ED3ng l\u00EAn Cao Th\u1EE7.',
+							'Điểm MMR cho từ vựng, ngữ pháp và đọc hiểu — leo hạng từ Đồng lên Cao Thủ.',
 					},
 					{
-						title: 'Th\u00E1ch \u0110\u1EA5u To\u00E0n C\u1EA7u',
+						title: 'Bảng xếp hạng',
 						description:
-							'So t\u00E0i v\u1EDBi ng\u01B0\u1EDDi h\u1ECDc kh\u1EAFp n\u01A1i tr\u00EAn b\u1EA3ng x\u1EBFp h\u1EA1ng \u2014 l\u1ECDc theo ng\u00F4n ng\u1EEF v\u00E0 k\u1EF9 n\u0103ng.',
+							'So sánh với người học khác, lọc theo ngôn ngữ và kỹ năng.',
 					},
 					{
-						title: 'Duy Tr\u00EC \u0110\u1ED9ng L\u1EF1c',
+						title: 'Thống kê cá nhân',
 						description:
-							'Chu\u1ED7i h\u1ECDc t\u1EADp, t\u1EF7 l\u1EC7 ch\u00EDnh x\u00E1c, s\u1ED1 t\u1EEB \u0111\u00E3 chinh ph\u1EE5c \u2014 m\u1ED7i con s\u1ED1 l\u00E0 m\u1ED9t th\u00E0nh t\u1EF1u.',
+							'Chuỗi học tập, tỷ lệ chính xác, số từ đã chinh phục.',
 					},
 				],
 			},
 			{
-				heading: 'S\u1EAFp X\u1EBFp Th\u00F4ng Minh',
+				heading: 'Sắp xếp',
 				features: [
 					{
-						title: 'B\u1ED9 S\u01B0u T\u1EADp Ri\u00EAng',
+						title: 'Bộ sưu tập',
 						description:
-							'T\u1EA1o c\u00E1c b\u1ED9 s\u01B0u t\u1EADp t\u00F9y ch\u1EC9nh \u2014 nh\u00F3m t\u1EEB, b\u00E0i t\u1EADp, n\u1ED9i dung theo ch\u1EE7 \u0111\u1EC1 b\u1EA1n mu\u1ED1n.',
+							'Tạo bộ sưu tập tùy chỉnh — nhóm từ, bài tập, nội dung theo chủ đề.',
 					},
 					{
-						title: 'L\u01B0u Ngay Khi H\u1ECDc',
+						title: 'Lưu khi học',
 						description:
-							'G\u1EB7p t\u1EEB m\u1EDBi trong l\u00FAc luy\u1EC7n t\u1EADp? M\u1ED9t ch\u1EA1m l\u01B0u l\u1EA1i k\u00E8m ng\u1EEF c\u1EA3nh \u2014 kh\u00F4ng b\u1ECF s\u00F3t.',
+							'Gặp từ mới trong lúc luyện tập? Một chạm lưu lại kèm ngữ cảnh.',
 					},
 					{
-						title: 'Kho T\u1EEB Kh\u00F3a C\u00E1 Nh\u00E2n',
+						title: 'Kho từ khóa',
 						description:
-							'X\u00E2y d\u1EF1ng t\u1EEB \u0111i\u1EC3n t\u1EEB kh\u00F3a c\u1EE7a ri\u00EAng b\u1EA1n \u2014 theo d\u00F5i t\u1EEBng t\u1EEB xu\u1EA5t hi\u1EC7n \u1EDF \u0111\u00E2u v\u00E0 ngh\u0129a g\u00EC.',
+							'Xây dựng từ điển từ khóa riêng — theo dõi từng từ xuất hiện ở đâu.',
 					},
 					{
-						title: 'M\u1ED9t N\u01A1i Cho T\u1EA5t C\u1EA3',
+						title: 'Đánh dấu',
 						description:
-							'\u0110\u00E1nh d\u1EA5u t\u1EEB v\u1EF1ng, ng\u1EEF ph\u00E1p, tr\u1EAFc nghi\u1EC7m, \u0111\u1ECDc hi\u1EC3u \u2014 t\u1EA5t c\u1EA3 \u0111\u01B0\u1EE3c t\u1ED5 ch\u1EE9c g\u1ECDn g\u00E0ng t\u1EA1i m\u1ED9t n\u01A1i.',
+							'Đánh dấu từ vựng, ngữ pháp, trắc nghiệm, đọc hiểu — tổ chức tại một nơi.',
 					},
 				],
 			},
@@ -306,107 +306,107 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'NS Drive',
 		description:
-			'Ch\u1EA5m d\u1EE9t vi\u1EC7c qu\u1EA3n l\u00FD t\u1EEBng d\u1ECBch v\u1EE5 \u0111\u00E1m m\u00E2y ri\u00EAng l\u1EBB. K\u1EBFt n\u1ED1i t\u1EA5t c\u1EA3 v\u00E0o m\u1ED9t n\u01A1i, thi\u1EBFt k\u1EBF quy tr\u00ECnh \u0111\u1ED3ng b\u1ED9 tr\u1EF1c quan, v\u00E0 t\u1EF1 \u0111\u1ED9ng h\u00F3a m\u1ECDi th\u1EE9 \u2014 d\u1EEF li\u1EC7u c\u1EE7a b\u1EA1n, d\u01B0\u1EDBi quy\u1EC1n ki\u1EC3m so\u00E1t c\u1EE7a b\u1EA1n.',
-		tagline: 'T\u1EA5t c\u1EA3 \u0111\u00E1m m\u00E2y, m\u1ED9t n\u01A1i duy nh\u1EA5t.',
-		highlights: ['\u0110\u1ED3ng b\u1ED9 tr\u1EF1c quan', 'T\u1EF1 \u0111\u1ED9ng h\u00F3a', 'B\u1EA3o m\u1EADt AES-256'],
+			'Đồng bộ file giữa nhiều dịch vụ cloud — kết nối Google Drive, Dropbox, OneDrive,... vào một nơi, thiết kế workflow đồng bộ, mã hóa AES-256.',
+		tagline: 'Đồng bộ nhiều cloud trong một app.',
+		highlights: ['Nhiều cloud', 'Workflow đồng bộ', 'Mã hóa AES-256'],
 		featureGroups: [
 			{
-				heading: 'K\u1EBFt N\u1ED1i M\u1ECDi \u0110\u00E1m M\u00E2y',
+				heading: 'Kết nối cloud',
 				features: [
 					{
-						title: 'Trung T\u00E2m H\u1EE3p Nh\u1EA5t',
+						title: 'Nhiều dịch vụ',
 						description:
-							'Google Drive, Dropbox, OneDrive, iCloud v\u00E0 h\u00E0ng ch\u1EE5c d\u1ECBch v\u1EE5 kh\u00E1c \u2014 t\u1EA5t c\u1EA3 trong m\u1ED9t giao di\u1EC7n duy nh\u1EA5t.',
+							'Google Drive, Dropbox, OneDrive, iCloud và nhiều dịch vụ khác — gom vào một giao diện.',
 					},
 					{
-						title: '\u0110\u1ED3ng B\u1ED9 Linh Ho\u1EA1t',
+						title: 'Chế độ đồng bộ',
 						description:
-							'M\u1ED9t chi\u1EC1u, hai chi\u1EC1u hay sao ch\u00E9p \u2014 ch\u1ECDn ch\u1EBF \u0111\u1ED9 ph\u00F9 h\u1EE3p v\u1EDBi x\u1EED l\u00FD xung \u0111\u1ED9t t\u1EF1 \u0111\u1ED9ng.',
+							'Một chiều, hai chiều hoặc sao chép — xử lý xung đột tự động.',
 					},
 					{
-						title: 'T\u00F9y Ch\u1EC9nh S\u00E2u',
+						title: 'Cấu hình chi tiết',
 						description:
-							'60+ t\u00F9y ch\u1ECDn c\u1EA5u h\u00ECnh \u2014 t\u1EEB gi\u1EDBi h\u1EA1n b\u0103ng th\u00F4ng, b\u1ED9 l\u1ECDc t\u1EC7p \u0111\u1EBFn ki\u1EC3m so\u00E1t an to\u00E0n.',
+							'60+ tùy chọn: giới hạn băng thông, bộ lọc tệp, kiểm soát an toàn.',
 					},
 					{
-						title: 'Song Song Kh\u00F4ng Gi\u1EDBi H\u1EA1n',
+						title: 'Chạy song song',
 						description:
-							'Ch\u1EA1y nhi\u1EC1u t\u00E1c v\u1EE5 \u0111\u1ED3ng b\u1ED9 c\u00F9ng l\u00FAc, m\u1ED7i t\u00E1c v\u1EE5 c\u00F3 ti\u1EBFn \u0111\u1ED9 v\u00E0 nh\u1EADt k\u00FD ri\u00EAng bi\u1EC7t.',
+							'Nhiều tác vụ đồng bộ cùng lúc, mỗi tác vụ có tiến độ và log riêng.',
 					},
 				],
 			},
 			{
-				heading: 'Thi\u1EBFt K\u1EBF Quy Tr\u00ECnh',
+				heading: 'Workflow',
 				features: [
 					{
-						title: 'Canvas K\u00E9o Th\u1EA3',
+						title: 'Canvas kéo thả',
 						description:
-							'V\u1EBD quy tr\u00ECnh \u0111\u1ED3ng b\u1ED9 nhi\u1EC1u b\u01B0\u1EDBc tr\u00EAn canvas tr\u1EF1c quan \u2014 k\u1EBFt n\u1ED1i c\u00E1c ngu\u1ED3n d\u1EEF li\u1EC7u b\u1EB1ng k\u00E9o v\u00E0 th\u1EA3.',
+							'Thiết kế quy trình đồng bộ nhiều bước bằng kéo và thả trên canvas.',
 					},
 					{
-						title: 'Th\u1EF1c Thi Th\u00F4ng Minh',
+						title: 'Thực thi theo DAG',
 						description:
-							'Quy tr\u00ECnh ch\u1EA1y theo \u0111\u1ED3 th\u1ECB c\u00F3 h\u01B0\u1EDBng \u2014 t\u1EF1 \u0111\u1ED9ng gi\u1EA3i quy\u1EBFt ph\u1EE5 thu\u1ED9c v\u00E0 ph\u00E1t hi\u1EC7n v\u00F2ng l\u1EB7p.',
+							'Chạy theo đồ thị có hướng — tự động giải quyết phụ thuộc và phát hiện vòng lặp.',
 					},
 					{
-						title: 'L\u1EADp L\u1ECBch T\u1EF1 \u0110\u1ED9ng',
+						title: 'Lập lịch cron',
 						description:
-							'T\u1EF1 \u0111\u1ED9ng h\u00F3a b\u1EA5t k\u1EF3 quy tr\u00ECnh n\u00E0o v\u1EDBi l\u1ECBch cron \u2014 theo d\u00F5i l\u1EA7n ch\u1EA1y tr\u01B0\u1EDBc, l\u1EA7n ti\u1EBFp theo v\u00E0 k\u1EBFt qu\u1EA3.',
+							'Tự động hóa workflow theo lịch cron — xem lần chạy trước và lần tiếp theo.',
 					},
 					{
-						title: 'Ch\u1EA1y M\u1ED9t Ch\u1EA1m',
+						title: 'Chạy từ system tray',
 						description:
-							'Kh\u1EDFi \u0111\u1ED9ng quy tr\u00ECnh tr\u1EF1c ti\u1EBFp t\u1EEB khay h\u1EC7 th\u1ED1ng \u2014 kh\u00F4ng c\u1EA7n m\u1EDF \u1EE9ng d\u1EE5ng.',
+							'Khởi động workflow từ khay hệ thống, không cần mở app.',
 					},
 				],
 			},
 			{
-				heading: 'Qu\u1EA3n L\u00FD T\u1EC7p',
+				heading: 'Quản lý file',
 				features: [
 					{
-						title: 'Duy\u1EC7t M\u1ECDi N\u01A1i',
+						title: 'Duyệt file',
 						description:
-							'Truy c\u1EADp t\u1EC7p tr\u00EAn b\u1EA5t k\u1EF3 d\u1ECBch v\u1EE5 n\u00E0o \u2014 \u0111i\u1EC1u h\u01B0\u1EDBng, t\u1EA1o th\u01B0 m\u1EE5c hay x\u00F3a, t\u1EA5t c\u1EA3 t\u1EEB m\u1ED9t giao di\u1EC7n.',
+							'Truy cập file trên bất kỳ dịch vụ nào — tạo thư mục, xóa, di chuyển từ một giao diện.',
 					},
 					{
-						title: 'Chuy\u1EC3n Nhanh, Chuy\u1EC3n G\u1ECDn',
+						title: 'Chuyển file',
 						description:
-							'Di chuy\u1EC3n t\u1EC7p gi\u1EEFa c\u00E1c d\u1ECBch v\u1EE5 ho\u1EB7c m\u00E1y t\u00EDnh v\u1EDBi ti\u1EBFn \u0111\u1ED9 c\u1EADp nh\u1EADt theo th\u1EDDi gian th\u1EF1c.',
+							'Di chuyển file giữa các dịch vụ hoặc máy tính với tiến độ realtime.',
 					},
 					{
-						title: 'D\u1ECDn D\u1EB9p Th\u00F4ng Minh',
+						title: 'Dọn dẹp',
 						description:
-							'Ph\u00E1t hi\u1EC7n t\u1EC7p tr\u00F9ng l\u1EB7p, ki\u1EC3m tra t\u00EDnh to\u00E0n v\u1EB9n v\u00E0 t\u00EDnh dung l\u01B0\u1EE3ng s\u1EED d\u1EE5ng \u2014 gi\u1EEF kho l\u01B0u tr\u1EEF g\u1ECDn g\u00E0ng.',
+							'Phát hiện file trùng lặp, kiểm tra tính toàn vẹn, tính dung lượng đã dùng.',
 					},
 					{
-						title: 'Nh\u1EADt K\u00FD \u0110\u1EA7y \u0110\u1EE7',
+						title: 'Lịch sử',
 						description:
-							'To\u00E0n b\u1ED9 l\u1ECBch s\u1EED \u0111\u1ED3ng b\u1ED9 v\u00E0 thao t\u00E1c t\u1EC7p \u2014 th\u1ED1ng k\u00EA truy\u1EC1n t\u1EA3i, th\u1EDDi l\u01B0\u1EE3ng v\u00E0 tr\u1EA1ng th\u00E1i.',
+							'Log đầy đủ mọi thao tác đồng bộ và quản lý file.',
 					},
 				],
 			},
 			{
-				heading: 'An To\u00E0n Tuy\u1EC7t \u0110\u1ED1i',
+				heading: 'Bảo mật',
 				features: [
 					{
-						title: 'M\u00E3 H\u00F3a AES-256',
+						title: 'Mã hóa AES-256',
 						description:
-							'M\u1ECDi d\u1EEF li\u1EC7u nh\u1EA1y c\u1EA3m \u0111\u01B0\u1EE3c m\u00E3 h\u00F3a AES-256-GCM \u2014 token, c\u01A1 s\u1EDF d\u1EEF li\u1EC7u \u0111\u1EC1u \u0111\u01B0\u1EE3c b\u1EA3o v\u1EC7 k\u00EDn.',
+							'Dữ liệu nhạy cảm được mã hóa AES-256-GCM — token, database đều được bảo vệ.',
 					},
 					{
-						title: 'Kh\u00F3a Ch\u00EDnh',
+						title: 'Master password',
 						description:
-							'Thi\u1EBFt l\u1EADp m\u1EADt kh\u1EA9u ch\u00EDnh v\u1EDBi Argon2id \u2014 th\u00EAm m\u1ED9t l\u1EDBp b\u1EA3o v\u1EC7 v\u1EDBi gi\u1EDBi h\u1EA1n s\u1ED1 l\u1EA7n th\u1EED m\u1EDF kh\u00F3a.',
+							'Mật khẩu chính với Argon2id, giới hạn số lần thử mở khóa.',
 					},
 					{
-						title: 'Sao L\u01B0u & Chia S\u1EBB',
+						title: 'Sao lưu cấu hình',
 						description:
-							'Xu\u1EA5t to\u00E0n b\u1ED9 c\u1EA5u h\u00ECnh \u2014 board, ngu\u1ED3n d\u1EEF li\u1EC7u, c\u00E0i \u0111\u1EB7t \u2014 trong m\u1ED9t t\u1EC7p n\u00E9n g\u1ECDn nh\u1EB9.',
+							'Xuất toàn bộ cấu hình ra một file nén.',
 					},
 					{
-						title: 'M\u1ECDi N\u1EC1n T\u1EA3ng',
+						title: 'Đa nền tảng',
 						description:
-							'\u1EE8ng d\u1EE5ng desktop g\u1ED1c cho macOS, Linux v\u00E0 Windows \u2014 t\u00EDch h\u1EE3p khay h\u1EC7 th\u1ED1ng, kh\u1EDFi \u0111\u1ED9ng c\u00F9ng m\u00E1y.',
+							'App desktop cho macOS, Linux và Windows — tích hợp system tray.',
 					},
 				],
 			},
@@ -415,57 +415,57 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'NS Tracing Extension',
 		description:
-			'Ghi l\u1EA1i m\u1ECDi th\u1EE9 x\u1EA3y ra trong phi\u00EAn debug \u2014 video m\u00E0n h\u00ECnh, console, network, WebSocket \u2014 ch\u1EC9 v\u1EDBi m\u1ED9t click. Source map t\u1EF1 \u0111\u1ED9ng gi\u1EA3i m\u00E3 m\u00E3 minify, gi\u00FAp b\u1EA1n t\u00ECm bug nhanh h\u01A1n bao gi\u1EDD h\u1EBFt.',
-		tagline: 'Debug kh\u00F4ng b\u1ECF s\u00F3t, ti\u1EBFt ki\u1EC7m th\u1EDDi gian.',
-		highlights: ['Ghi h\u00ECnh to\u00E0n di\u1EC7n', 'Thu th\u1EADp t\u1EF1 \u0111\u1ED9ng', 'Source map'],
+			'Extension trình duyệt ghi lại phiên debug — video màn hình, console log, network request, WebSocket frame. Hỗ trợ source map để giải mã code minify.',
+		tagline: 'Ghi lại phiên debug trên trình duyệt.',
+		highlights: ['Ghi hình', 'Console & network', 'Source map'],
 		featureGroups: [
 			{
-				heading: 'Thu Th\u1EADp To\u00E0n Di\u1EC7n',
+				heading: 'Thu thập',
 				features: [
 					{
-						title: 'Ghi H\u00ECnh M\u1ED9t Ch\u1EA1m',
+						title: 'Ghi hình',
 						description:
-							'Nh\u1EA5n n\u00FAt l\u00E0 quay \u2014 video tab tr\u00ECnh duy\u1EC7t \u1EDF VP9/VP8 v\u1EDBi \u00E2m thanh, kh\u00F4ng c\u1EA7n thi\u1EBFt l\u1EADp ph\u1EE9c t\u1EA1p.',
+							'Quay video tab trình duyệt ở VP9/VP8 có âm thanh, bấm nút là chạy.',
 					},
 					{
-						title: 'Console Kh\u00F4ng S\u00F3t',
+						title: 'Console log',
 						description:
-							'M\u1ECDi log, c\u1EA3nh b\u00E1o, l\u1ED7i \u0111\u1EC1u \u0111\u01B0\u1EE3c ghi l\u1EA1i k\u00E8m chi ti\u1EBFt object \u2014 nh\u01B0 c\u00F3 DevTools ch\u1EA1y n\u1EC1n 24/7.',
+							'Ghi lại mọi log, warning, error kèm chi tiết object.',
 					},
 					{
-						title: 'M\u1ECDi Request, M\u1ECDi Response',
+						title: 'Network',
 						description:
-							'Header, body, timing, status code \u2014 to\u00E0n b\u1ED9 network activity \u0111\u01B0\u1EE3c l\u01B0u tr\u1EEF chi ti\u1EBFt.',
+							'Header, body, timing, status code — lưu toàn bộ network activity.',
 					},
 					{
-						title: 'WebSocket Th\u1EDDi Gian Th\u1EF1c',
+						title: 'WebSocket',
 						description:
-							'B\u1EAFt tr\u1ECDn m\u1ECDi frame g\u1EEDi v\u00E0 nh\u1EADn \u2014 debug k\u1EBFt n\u1ED1i real-time ch\u01B0a bao gi\u1EDD d\u1EC5 h\u01A1n.',
+							'Bắt mọi frame gửi và nhận trên kết nối WebSocket.',
 					},
 				],
 			},
 			{
-				heading: 'Xu\u1EA5t & Chia S\u1EBB',
+				heading: 'Xuất & chia sẻ',
 				features: [
 					{
-						title: 'Source Map T\u1EF1 \u0110\u1ED9ng',
+						title: 'Source map',
 						description:
-							'Stack trace t\u1EEB m\u00E3 minify \u0111\u01B0\u1EE3c gi\u1EA3i m\u00E3 v\u1EC1 ngu\u1ED3n g\u1ED1c \u2014 t\u00ECm l\u1ED7i \u0111\u00FAng file, \u0111\u00FAng d\u00F2ng.',
+							'Stack trace từ code minify được giải mã về source gốc — đúng file, đúng dòng.',
 					},
 					{
-						title: 'T\u1EA3i V\u1EC1 D\u1EA1ng ZIP',
+						title: 'Tải ZIP',
 						description:
-							'To\u00E0n b\u1ED9 phi\u00EAn debug \u2014 video, log, network \u2014 g\u00F3i g\u1ECDn trong m\u1ED9t t\u1EC7p ZIP s\u1EB5n s\u00E0ng chia s\u1EBB.',
+							'Toàn bộ phiên debug — video, log, network — gói trong một file ZIP.',
 					},
 					{
-						title: '\u0110\u1EA9y L\u00EAn Server',
+						title: 'Upload lên server',
 						description:
-							'Upload b\u1EA3n ghi l\u00EAn NS Tracing Server \u0111\u1EC3 l\u01B0u tr\u1EEF t\u1EADp trung v\u00E0 chia s\u1EBB v\u1EDBi c\u1EA3 team.',
+							'Đẩy bản ghi lên NS Tracing Server để lưu trữ và chia sẻ với team.',
 					},
 					{
-						title: 'Link Chia S\u1EBB T\u1EE9c Th\u00EC',
+						title: 'Link chia sẻ',
 						description:
-							'T\u1EA1o URL xem ngay sau khi upload \u2014 \u0111\u1ED3ng nghi\u1EC7p m\u1EDF link l\u00E0 xem \u0111\u01B0\u1EE3c, kh\u00F4ng c\u1EA7n c\u00E0i \u0111\u1EB7t g\u00EC.',
+							'Tạo URL xem ngay sau khi upload — đồng nghiệp mở link là xem được.',
 					},
 				],
 			},
@@ -474,57 +474,57 @@ export const projectsVi: ProjectTranslation[] = [
 	{
 		title: 'NS Tracing Server',
 		description:
-			'Ph\u00E1t l\u1EA1i phi\u00EAn debug nh\u01B0 xem l\u1EA1i tr\u1EADn \u0111\u1EA5u \u2014 video \u0111\u1ED3ng b\u1ED9 v\u1EDBi console, network v\u00E0 WebSocket. Timeline \u0111\u00E1nh d\u1EA5u l\u1ED7i v\u00E0 request gi\u00FAp b\u1EA1n nh\u1EA3y th\u1EB3ng \u0111\u1EBFn v\u1EA5n \u0111\u1EC1.',
-		tagline: 'Xem l\u1EA1i, hi\u1EC3u ngay, s\u1EEDa nhanh.',
-		highlights: ['Ph\u00E1t l\u1EA1i \u0111\u1ED3ng b\u1ED9', 'Timeline th\u00F4ng minh', 'Debug tr\u1EF1c quan'],
+			'Phát lại phiên debug — video đồng bộ với console, network và WebSocket. Timeline đánh dấu lỗi và request để nhảy thẳng đến vấn đề.',
+		tagline: 'Phát lại và phân tích phiên debug.',
+		highlights: ['Phát lại đồng bộ', 'Timeline', 'Phân tích'],
 		featureGroups: [
 			{
-				heading: 'Ph\u00E1t L\u1EA1i Phi\u00EAn Debug',
+				heading: 'Phát lại',
 				features: [
 					{
-						title: 'Xem Nh\u01B0 \u0110ang S\u1ED1ng',
+						title: 'Video + log đồng bộ',
 						description:
-							'Video v\u00E0 log ch\u1EA1y \u0111\u1ED3ng b\u1ED9 \u2014 b\u1EA1n th\u1EA5y ch\u00EDnh x\u00E1c \u0111i\u1EC1u g\u00EC x\u1EA3y ra tr\u00EAn m\u00E0n h\u00ECnh khi l\u1ED7i ph\u00E1t sinh.',
+							'Video và log chạy cùng lúc — thấy chính xác điều gì xảy ra khi lỗi phát sinh.',
 					},
 					{
-						title: 'Timeline Th\u00F4ng Minh',
+						title: 'Timeline',
 						description:
-							'Thanh timeline v\u1EDBi marker t\u1EF1 \u0111\u1ED9ng \u2014 nh\u1EA3y \u0111\u1EBFn b\u1EA5t k\u1EF3 th\u1EDDi \u0111i\u1EC3m n\u00E0o ch\u1EC9 b\u1EB1ng m\u1ED9t click.',
+							'Thanh timeline với marker tự động — nhảy đến bất kỳ thời điểm nào bằng một click.',
 					},
 					{
-						title: 'L\u1ED7i N\u1ED5i B\u1EADt',
+						title: 'Marker lỗi',
 						description:
-							'Marker \u0111\u1ECF \u0111\u00E1nh d\u1EA5u t\u1EEBng l\u1ED7i console tr\u00EAn timeline \u2014 kh\u00F4ng c\u1EA7n t\u00ECm ki\u1EBFm, v\u1EA5n \u0111\u1EC1 t\u1EF1 hi\u1EC7n ra.',
+							'Marker đỏ đánh dấu lỗi console trên timeline.',
 					},
 					{
-						title: 'Network R\u00F5 R\u00E0ng',
+						title: 'Marker network',
 						description:
-							'Marker xanh cho m\u1ED7i network request \u2014 li\u00EAn k\u1EBFt nhanh gi\u1EEFa h\u00E0nh vi ng\u01B0\u1EDDi d\u00F9ng v\u00E0 d\u1EEF li\u1EC7u truy\u1EC1n t\u1EA3i.',
+							'Marker xanh cho mỗi network request — liên kết hành vi người dùng với dữ liệu truyền tải.',
 					},
 				],
 			},
 			{
-				heading: 'C\u00F4ng C\u1EE5 Ph\u00E2n T\u00EDch',
+				heading: 'Phân tích',
 				features: [
 					{
-						title: 'Console Chi Ti\u1EBFt',
+						title: 'Console chi tiết',
 						description:
-							'Duy\u1EC7t log v\u1EDBi timestamp, m\u1EE9c \u0111\u1ED9 nghi\u00EAm tr\u1ECDng v\u00E0 stack trace \u2014 source map gi\u00FAp tr\u1ECF \u0111\u00FAng d\u00F2ng code g\u1ED1c.',
+							'Duyệt log với timestamp, mức độ nghiêm trọng và stack trace. Source map trỏ về code gốc.',
 					},
 					{
-						title: 'Soi Request',
+						title: 'Xem request',
 						description:
-							'Ki\u1EC3m tra t\u1EEBng HTTP request v\u1EDBi header, status code, k\u00EDch th\u01B0\u1EDBc v\u00E0 th\u1EDDi gian ph\u1EA3n h\u1ED3i.',
+							'Kiểm tra từng HTTP request — header, status code, kích thước, thời gian phản hồi.',
 					},
 					{
-						title: 'WebSocket Tr\u1EF1c Quan',
+						title: 'WebSocket',
 						description:
-							'Xem t\u1EEBng frame WebSocket v\u1EDBi payload, s\u1EAFp x\u1EBFp theo k\u1EBFt n\u1ED1i \u2014 debug giao th\u1EE9c real-time d\u1EC5 d\u00E0ng.',
+							'Xem từng frame WebSocket với payload, sắp xếp theo kết nối.',
 					},
 					{
-						title: 'Upload Kh\u00F4ng Gi\u1EDBi H\u1EA1n',
+						title: 'Upload',
 						description:
-							'Nh\u1EADn video l\u00EAn \u0111\u1EBFn 500MB k\u00E8m telemetry \u2014 l\u01B0u tr\u1EEF v\u0129nh vi\u1EC5n v\u1EDBi ID chia s\u1EBB duy nh\u1EA5t.',
+							'Nhận video lên đến 500MB kèm telemetry, lưu trữ với ID chia sẻ.',
 					},
 				],
 			},
