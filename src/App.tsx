@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { Scene } from '@/components/three/Scene';
 import { Navbar } from '@/components/ui/Navbar';
 import { Hero } from '@/components/sections/Hero';
-import { About } from '@/components/sections/About';
 import { Projects } from '@/components/sections/Projects';
 import { Contact } from '@/components/sections/Contact';
 
@@ -26,7 +25,6 @@ export function App() {
 			<div className="relative z-10">
 				<Navbar />
 				<Hero />
-				<About />
 				<Projects />
 				<Contact />
 			</div>

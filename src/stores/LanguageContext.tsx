@@ -49,7 +49,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 		if (!getLocaleFromPath()) {
 			window.history.replaceState(null, '', `/${locale}${window.location.hash}`);
 		}
-	}, []);
+	}, [locale]);
 
 	const setLocale = (newLocale: Locale) => {
 		setLocaleState(newLocale);
