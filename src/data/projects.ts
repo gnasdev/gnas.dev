@@ -211,7 +211,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-drive',
 		category: 'open-source',
-		url: 'https://github.com/ngosangns/ns-drive',
+		url: 'https://github.com/NSLabs-HCM/ns-drive',
 		featureGroups: [
 			{
 				features: [
@@ -250,7 +250,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-tracing',
 		category: 'open-source',
-		url: 'https://github.com/ngosangns/ns-tracing-extension',
+		url: 'https://github.com/NSLabs-HCM/ns-tracing-extension',
 		featureGroups: [
 			{
 				features: [
