@@ -2,7 +2,7 @@ import type { ProjectTranslation } from '../types';
 
 export const projectsEn: ProjectTranslation[] = [
 	{
-		title: 'NS Shop',
+		title: 'GN Shop',
 		description:
 			'An online fashion store. Users can search products by multiple criteria, view variant details, place orders, and track delivery status. Supports COD and bank transfer payments.',
 		tagline: 'Online fashion shopping.',
@@ -61,7 +61,7 @@ export const projectsEn: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Money',
+		title: 'GN Money',
 		description:
 			'A personal finance tracker. Supports transaction input via natural language AI, quick logging via Telegram bot, and visual spending analytics through charts.',
 		tagline: 'Personal finance management.',
@@ -170,7 +170,7 @@ export const projectsEn: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'Vocab',
+		title: 'GN Engreel',
 		description:
 			'An English vocabulary learning app. Uses spaced repetition algorithms for effective review, AI generates exercises and auto-grades answers, with a leaderboard to compete with other learners.',
 		tagline: 'English vocabulary learning.',
@@ -304,7 +304,7 @@ export const projectsEn: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Drive',
+		title: 'NG Drive',
 		description:
 			'A desktop app for syncing files across multiple cloud services. Connect Google Drive, Dropbox, OneDrive, and more into a single interface. Design sync workflows with drag-and-drop, schedule automation, AES-256 encryption.',
 		tagline: 'Sync multiple clouds in one app.',
@@ -413,7 +413,7 @@ export const projectsEn: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Tracing',
+		title: 'GN Web Tracing',
 		description:
 			'A browser debugging toolkit. The extension records debug sessions including screen video, console logs, network requests, and WebSocket frames. The server replays recordings with a synced timeline, marking errors and requests so you can jump straight to the problem. Supports source maps to decode minified code.',
 		tagline: 'Record and replay browser debug sessions.',
@@ -460,7 +460,7 @@ export const projectsEn: ProjectTranslation[] = [
 					{
 						title: 'Upload to server',
 						description:
-							'Push recordings to NS Tracing Server for centralized storage and team sharing.',
+							'Push recordings to GN Web Tracing Server for centralized storage and team sharing.',
 					},
 					{
 						title: 'Share link',

@@ -2,7 +2,7 @@ import type { ProjectTranslation } from '../types';
 
 export const projectsVi: ProjectTranslation[] = [
 	{
-		title: 'NS Shop',
+		title: 'GN Shop',
 		description:
 			'Trang mua sắm thời trang online. Người dùng có thể tìm kiếm sản phẩm theo nhiều tiêu chí, xem chi tiết biến thể, đặt hàng và theo dõi trạng thái đơn hàng. Hỗ trợ thanh toán COD và chuyển khoản.',
 		tagline: 'Mua sắm thời trang online.',
@@ -61,7 +61,7 @@ export const projectsVi: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Money',
+		title: 'GN Money',
 		description:
 			'Ứng dụng quản lý thu chi cá nhân. Hỗ trợ nhập giao dịch bằng ngôn ngữ tự nhiên qua AI, ghi chép nhanh qua Telegram bot, và xem thống kê chi tiêu trực quan qua biểu đồ.',
 		tagline: 'Quản lý tài chính cá nhân.',
@@ -170,7 +170,7 @@ export const projectsVi: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'Vocab',
+		title: 'GN Engreel',
 		description:
 			'Ứng dụng học từ vựng tiếng Anh. Sử dụng thuật toán spaced repetition để ôn tập hiệu quả, AI tạo bài tập và chấm điểm tự động, có bảng xếp hạng để thi đua với người học khác.',
 		tagline: 'Học từ vựng tiếng Anh.',
@@ -304,7 +304,7 @@ export const projectsVi: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Drive',
+		title: 'NG Drive',
 		description:
 			'Ứng dụng desktop đồng bộ file giữa nhiều dịch vụ cloud. Kết nối Google Drive, Dropbox, OneDrive và nhiều dịch vụ khác vào một giao diện duy nhất. Thiết kế workflow đồng bộ bằng kéo thả, lập lịch tự động, mã hóa AES-256.',
 		tagline: 'Đồng bộ nhiều cloud trong một app.',
@@ -413,7 +413,7 @@ export const projectsVi: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NS Tracing',
+		title: 'GN Web Tracing',
 		description:
 			'Bộ công cụ debug cho trình duyệt. Extension ghi lại phiên debug gồm video màn hình, console log, network request và WebSocket frame. Server phát lại bản ghi với timeline đồng bộ, đánh dấu lỗi và request để nhảy thẳng đến vấn đề. Hỗ trợ source map để giải mã code minify.',
 		tagline: 'Ghi lại và phát lại phiên debug trình duyệt.',
@@ -460,7 +460,7 @@ export const projectsVi: ProjectTranslation[] = [
 					{
 						title: 'Upload lên server',
 						description:
-							'Đẩy bản ghi lên NS Tracing Server để lưu trữ tập trung và chia sẻ với team.',
+							'Đẩy bản ghi lên GN Web Tracing Server để lưu trữ tập trung và chia sẻ với team.',
 					},
 					{
 						title: 'Link chia sẻ',
