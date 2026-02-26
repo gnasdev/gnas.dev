@@ -304,7 +304,7 @@ export const projectsEn: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NG Drive',
+		title: 'GN Drive',
 		description:
 			'A desktop app for syncing files across multiple cloud services. Connect Google Drive, Dropbox, OneDrive, and more into a single interface. Design sync workflows with drag-and-drop, schedule automation, AES-256 encryption.',
 		tagline: 'Sync multiple clouds in one app.',

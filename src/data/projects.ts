@@ -214,9 +214,9 @@ export const projectStructures: ProjectStructure[] = [
 		],
 	},
 	{
-		key: 'ng-drive',
+		key: 'gn-drive',
 		category: 'open-source',
-		url: 'https://github.com/gnasdev/ng-drive',
+		url: 'https://github.com/gnasdev/gn-drive',
 		featureGroups: [
 			{
 				features: [

@@ -304,7 +304,7 @@ export const projectsVi: ProjectTranslation[] = [
 		],
 	},
 	{
-		title: 'NG Drive',
+		title: 'GN Drive',
 		description:
 			'Ứng dụng desktop đồng bộ file giữa nhiều dịch vụ cloud. Kết nối Google Drive, Dropbox, OneDrive và nhiều dịch vụ khác vào một giao diện duy nhất. Thiết kế workflow đồng bộ bằng kéo thả, lập lịch tự động, mã hóa AES-256.',
 		tagline: 'Đồng bộ nhiều cloud trong một app.',
