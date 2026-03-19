@@ -2,7 +2,7 @@ import type { UITranslations } from '../types';
 
 export const en = {
 	meta: {
-		title: 'gnas.dev',
+		title: 'gnas.dev - Research & Development',
 		description:
 			'A research and development group building useful digital products — from fashion shopping, personal finance, vocabulary learning to developer tools.',
 		ogDescription:

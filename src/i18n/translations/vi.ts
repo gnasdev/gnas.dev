@@ -2,7 +2,7 @@ import type { UITranslations } from '../types';
 
 export const vi = {
 	meta: {
-		title: 'gnas.dev',
+		title: 'gnas.dev - Nghiên Cứu & Phát Triển',
 		description:
 			'Nhóm nghiên cứu và phát triển các sản phẩm số hữu ích — từ mua sắm thời trang, quản lý tài chính, học từ vựng đến công cụ hỗ trợ lập trình.',
 		ogDescription:

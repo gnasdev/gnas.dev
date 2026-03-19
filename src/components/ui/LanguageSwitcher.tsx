@@ -2,8 +2,8 @@ import { useLanguage } from '@/stores/LanguageContext';
 import type { Locale } from '@/i18n/types';
 
 const localeLabels: Record<Locale, string> = {
-	en: 'EN',
-	vi: 'VI',
+	en: 'English',
+	vi: 'Tiếng Việt',
 };
 
 export function LanguageSwitcher() {
